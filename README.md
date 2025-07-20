@@ -26,15 +26,16 @@ Traditional SAST tools often require complex setups, rely on fixed rule sets, or
 
 + **Local Execution in Google Colab:** Ensures code privacy by running entirely within your Colab environment.
 
-+ **No Installation or API Keys Required:** Streamlined setup for immediate use.
-
 + **Multi-Language Support:** (List the supported languages here, e.g., Python, Java, JavaScript, C++).
-
-+ **RAG Dataset Integration (Recommended):** Enhances accuracy with a Retrieval Augmented Generation dataset (note on GPU/TPU usage).
 
 + **JSON Output:** Provides structured vulnerability analysis in a standard format.
 
 + **Sample Code Included:** Get started quickly with example files in the \sample/` folder.
+
++ **No Installation or API Keys Required:** Streamlined setup for immediate use.
+
++ **RAG Dataset Integration (Recommended):** Enhances accuracy with a Retrieval Augmented Generation dataset (note on GPU/TPU usage).
+
 
 ## Quick Start: Using SmartSast in Google Colab
 Getting started with SmartSast is straightforward. No installation or API keys are required! Simply open the Colab notebook and follow these steps:
