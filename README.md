@@ -11,13 +11,13 @@ Unlike many SAST tools that run in the cloud or rely on static rules, SmartSast 
 
 Traditional SAST tools often require complex setups, rely on fixed rule sets, or process your code on external servers. SmartSast offers a refreshing alternative:
 
-**Privacy-First Scanning:** Run LLM-powered analysis directly in Google Colab, keeping your sensitive code secure and private.
++ **Privacy-First Scanning:** Run LLM-powered analysis directly in Google Colab, keeping your sensitive code secure and private.
 
-**No Complex Setup:** Forget about installations, API keys, or lengthy configurations. Just open the Colab notebook and start scanning.
++ **No Complex Setup:** Forget about installations, API keys, or lengthy configurations. Just open the Colab notebook and start scanning.
 
-**AI-Powered Accuracy:** Leverage the intelligence of LLMs to detect vulnerabilities with greater precision than static, rule-based scanners.
++ **AI-Powered Accuracy:** Leverage the intelligence of LLMs to detect vulnerabilities with greater precision than static, rule-based scanners.
 
-**Ideal for Learning & Development:** Perfect for students, developers, and security enthusiasts looking to learn about SAST or integrate robust security checks into their local workflows.
++ **Ideal for Learning & Development:** Perfect for students, developers, and security enthusiasts looking to learn about SAST or integrate robust security checks into their local workflows.
 
 ## Features
 **LLM-Powered Analysis:** Utilizes Large Language Models for intelligent vulnerability detection.
