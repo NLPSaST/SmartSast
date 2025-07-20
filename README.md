@@ -54,7 +54,7 @@ Getting started with SmartSast is straightforward. No installation or API keys a
 5.  Run the Code: Execute the cells in the Colab notebook and follow any on-screen instructions. You can use the provided code samples in the sample/ folder to test it out.
 6.  Review Results: Examine the detailed vulnerability analysis generated in your specified OUTPUT_FOLDER.
 
-+**Key Benefits:**
+**Key Benefits:**
 
 +**Zero Installation:** Run directly in your browser.
 
