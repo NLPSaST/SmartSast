@@ -1,6 +1,5 @@
 # SmartSast: AI-Powered SAST for Local, Private Code Scanning
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/SmartSast/blob/main/smart_sast_colab.ipynb)
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FLn_i1Ln23pR7Sr25mafutaicASZa6LE?usp=sharing)
 SmartSast is an innovative Static Application Security Testing (SAST) tool that uses **Large Language Models (LLMs)** to identify security vulnerabilities directly in your source code. Designed for privacy and ease of use, SmartSast provides **accurate, AI-driven analysis without sending your code to external servers.**
 
 ## What does the project do?
@@ -42,6 +41,7 @@ Getting started with SmartSast is straightforward. No installation or API keys a
 
 **Ready to start? Click the badge below!**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/SmartSast/blob/main/smart_sast_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FLn_i1Ln23pR7Sr25mafutaicASZa6LE?usp=sharing)
 
 1.  **Open the Notebook:** Click the "Open in Colab" badge above or at the top of this page.
 2.  Save a Copy: In Colab, go to File > Save a copy in Drive to create your editable version.
