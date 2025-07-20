@@ -20,21 +20,21 @@ Traditional SAST tools often require complex setups, rely on fixed rule sets, or
 + **Ideal for Learning & Development:** Perfect for students, developers, and security enthusiasts looking to learn about SAST or integrate robust security checks into their local workflows.
 
 ## Features
-**LLM-Powered Analysis:** Utilizes Large Language Models for intelligent vulnerability detection.
++ **LLM-Powered Analysis:** Utilizes Large Language Models for intelligent vulnerability detection.
 
-**CWE-Based Identification:** Maps identified vulnerabilities to Common Weakness Enumeration (CWE) patterns.
++ **CWE-Based Identification:** Maps identified vulnerabilities to Common Weakness Enumeration (CWE) patterns.
 
-**Local Execution in Google Colab:** Ensures code privacy by running entirely within your Colab environment.
++ **Local Execution in Google Colab:** Ensures code privacy by running entirely within your Colab environment.
 
-**No Installation or API Keys Required:** Streamlined setup for immediate use.
++ **No Installation or API Keys Required:** Streamlined setup for immediate use.
 
-**Multi-Language Support:** (List the supported languages here, e.g., Python, Java, JavaScript, C++).
++ **Multi-Language Support:** (List the supported languages here, e.g., Python, Java, JavaScript, C++).
 
-**RAG Dataset Integration (Recommended):** Enhances accuracy with a Retrieval Augmented Generation dataset (note on GPU/TPU usage).
++ **RAG Dataset Integration (Recommended):** Enhances accuracy with a Retrieval Augmented Generation dataset (note on GPU/TPU usage).
 
-**JSON Output:** Provides structured vulnerability analysis in a standard format.
++ **JSON Output:** Provides structured vulnerability analysis in a standard format.
 
-**Sample Code Included:** Get started quickly with example files in the \sample/` folder.
++ **Sample Code Included:** Get started quickly with example files in the \sample/` folder.
 
 ## Quick Start: Using SmartSast in Google Colab
 Getting started with SmartSast is straightforward. No installation or API keys are required! Simply open the Colab notebook and follow these steps:
@@ -53,13 +53,13 @@ Getting started with SmartSast is straightforward. No installation or API keys a
 5.  Run the Code: Execute the cells in the Colab notebook and follow any on-screen instructions. You can use the provided code samples in the sample/ folder to test it out.
 6.  Review Results: Examine the detailed vulnerability analysis generated in your specified OUTPUT_FOLDER.
 
-**Key Benefits:**
++**Key Benefits:**
 
-**Zero Installation:** Run directly in your browser.
++**Zero Installation:** Run directly in your browser.
 
-**No API Keys:** Completely self-contained.
++**No API Keys:** Completely self-contained.
 
-**Example Code Included:** Jumpstart your testing with provided samples.
++**Example Code Included:** Jumpstart your testing with provided samples.
 
 > **Pro Tip:** For optimal code accuracy and performance, it's highly recommended to use the RAG dataset and leverage Google Colab's GPU/TPU resources.
 
