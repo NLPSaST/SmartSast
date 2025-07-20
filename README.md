@@ -1,43 +1,78 @@
-# SmartSast 
+# SmartSast: AI-Powered SAST for Local, Private Code Scanning
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/SmartSast/blob/main/smart_sast_colab.ipynb)
 
-This repository hosts a SAST tool powered by  LLMs. It leverages AI and machine learning to detect security vulnerabilities in source code, providing accurate analysis.
+SmartSast is an innovative Static Application Security Testing (SAST) tool that uses **Large Language Models (LLMs)** to identify security vulnerabilities directly in your source code. Designed for privacy and ease of use, SmartSast provides **accurate, AI-driven analysis without sending your code to external servers.**
 
 ## What does the project do?
-SmartSast is a Static Application Security Testing (SAST) tool that uses Large Language Models (LLMs) writen in Python code, to analyze different languange codes like () and detect potential security vulnerabilities. It identifies risks based on CWE (Common Weakness Enumeration) patterns, using AI to provide smarter and more accurate results than traditional static scanners.
+SmartSast is a **Static Application Security Testing (SAST) tool** built with Python and powered by **Large Language Models (LLMs)**. It analyzes your source code to detect potential security vulnerabilities, identifying risks based on **CWE (Common Weakness Enumeration) patterns.**. Using AI to provide **smarter and more accurate** results than traditional static scanners.
 
 ## Why is the project useful?
 Unlike many SAST tools that run in the cloud or rely on static rules, SmartSast uses LLMs locally in Google Colab, giving developers and students a private, flexible, and AI-powered way to scan their code. It’s ideal for learning, testing, or working in secure environments where sending code to external servers is not an option. There's no need for complex setup or API keys — just open the Colab notebook and run it.
 
+Traditional SAST tools often require complex setups, rely on fixed rule sets, or process your code on external servers. SmartSast offers a refreshing alternative:
+
+**Privacy-First Scanning:** Run LLM-powered analysis directly in Google Colab, keeping your sensitive code secure and private.
+
+**No Complex Setup:** Forget about installations, API keys, or lengthy configurations. Just open the Colab notebook and start scanning.
+
+**AI-Powered Accuracy:** Leverage the intelligence of LLMs to detect vulnerabilities with greater precision than static, rule-based scanners.
+
+**Ideal for Learning & Development:** Perfect for students, developers, and security enthusiasts looking to learn about SAST or integrate robust security checks into their local workflows.
+
 ## Features
+**LLM-Powered Analysis:** Utilizes Large Language Models for intelligent vulnerability detection.
 
-## How can users get started?
-You can start using SmartSast immediately in Google Colab with your Google account [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FLn_i1Ln23pR7Sr25mafutaicASZa6LE#scrollTo=VtcU_AvKBAXO):
+**CWE-Based Identification:** Maps identified vulnerabilities to Common Weakness Enumeration (CWE) patterns.
 
-SmartSast runs directly in Google Colab with no installation required. Here's how to begin:
-1. Upload the RAR zip file
-2. Loaded at your Google Drive
-3. Unzip the file to a specific folder, this will be the RAG_FOLDER (you will need to remember it's path)
-4. Click the “Open in Colab” badge at the top of this page.
-5. Go to File → Save a copy in Drive to keep your own version
-6. At the beggining of the file you need to define, the RAG_FOLDER and the folder where the output (*.json) fill will be saved
-7. Run the code and follow the instructions (you can use the code samples provided in the sample/ folder)
-9. Review the vulnerability analysis shown in the results.
+**Local Execution in Google Colab:** Ensures code privacy by running entirely within your Colab environment.
 
-✔ No installation required
+**No Installation or API Keys Required:** Streamlined setup for immediate use.
 
-✔ No API key needed
+**Multi-Language Support:** (List the supported languages here, e.g., Python, Java, JavaScript, C++).
 
-✔ Includes example code in the sample/ folder
+**RAG Dataset Integration (Recommended):** Enhances accuracy with a Retrieval Augmented Generation dataset (note on GPU/TPU usage).
 
->Note: For code accurrancy is recommended to use the RAG dataset and GPU/TPU resources.
+**JSON Output:** Provides structured vulnerability analysis in a standard format.
+
+**Sample Code Included:** Get started quickly with example files in the \sample/` folder.
+
+## Quick Start: Using SmartSast in Google Colab
+Getting started with SmartSast is straightforward. No installation or API keys are required! Simply open the Colab notebook and follow these steps:
+
+**Ready to start? Click the badge below!**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/SmartSast/blob/main/smart_sast_colab.ipynb)
+
+1.  **Open the Notebook:** Click the "Open in Colab" badge above or at the top of this page.
+2.  Save a Copy: In Colab, go to File > Save a copy in Drive to create your editable version.
+3.  Prepare Your Data (Optional, but Recommended for Accuracy):
+* Upload your RAR zip file (presumably containing the RAG dataset) to your Google Drive.
+* Unzip this file to a specific folder in your Google Drive. This will be your `RAG_FOLDER` path.
+4.  Configure Paths: At the beginning of the Colab notebook, define two paths:
+* RAG_FOLDER: The path to the folder where you unzipped your RAG dataset.
+* OUTPUT_FOLDER: The folder where the vulnerability analysis (.json) file will be saved.
+5.  Run the Code: Execute the cells in the Colab notebook and follow any on-screen instructions. You can use the provided code samples in the sample/ folder to test it out.
+6.  Review Results: Examine the detailed vulnerability analysis generated in your specified OUTPUT_FOLDER.
+
+**Key Benefits:**
+
+**Zero Installation:** Run directly in your browser.
+
+**No API Keys:** Completely self-contained.
+
+**Example Code Included:** Jumpstart your testing with provided samples.
+
+> **Pro Tip:** For optimal code accuracy and performance, it's highly recommended to use the RAG dataset and leverage Google Colab's GPU/TPU resources.
 
 # Where can users get help?
 
-📧 Email: smart.sast@gmail.com
-
-💬 Discord (link coming soon)
+❓ You can open an issue on GitHub
 
 📖 Documentation and a wiki are planned
 
-❓ You can also open an issue on GitHub once enabled
+💬 Discord (link coming soon)
+
+📧 Email (coming soon)
+
+
+
+
