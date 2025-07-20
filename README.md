@@ -54,14 +54,6 @@ Getting started with SmartSast is straightforward. No installation or API keys a
 5.  Run the Code: Execute the cells in the Colab notebook and follow any on-screen instructions. You can use the provided code samples in the sample/ folder to test it out.
 6.  Review Results: Examine the detailed vulnerability analysis generated in your specified OUTPUT_FOLDER.
 
-**Key Benefits:**
-
-+**Zero Installation:** Run directly in your browser.
-
-+**No API Keys:** Completely self-contained.
-
-+**Example Code Included:** Jumpstart your testing with provided samples.
-
 > **Pro Tip:** For optimal code accuracy and performance, it's highly recommended to use the RAG dataset and leverage Google Colab's GPU/TPU resources.
 
 # Where can users get help?
