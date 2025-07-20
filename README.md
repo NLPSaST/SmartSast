@@ -45,7 +45,7 @@ Getting started with SmartSast is straightforward. No installation or API keys a
 1.  **Open the Notebook:** Click the "Open in Colab" badge above or at the top of this page.
 2.  Save a Copy: In Colab, go to File > Save a copy in Drive to create your editable version.
 3.  Prepare Your Data (Optional, but Recommended for Accuracy):
-* Upload your RAR zip file (presumably containing the RAG dataset) to your Google Drive.
+* Upload your RAR zip file (presumably containing the RAG dataset) to your Google Drive.(**latest version: CWE-top25-20250705T164339Z-1-001.zip**)
 * Unzip this file to a specific folder in your Google Drive. This will be your `RAG_FOLDER` path.
 4.  Configure Paths: At the beginning of the Colab notebook, define two paths:
 * RAG_FOLDER: The path to the folder where you unzipped your RAG dataset.
