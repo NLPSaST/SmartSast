@@ -55,6 +55,15 @@ Getting started with SmartSast is straightforward. No installation or API keys a
 
 > **Pro Tip:** For optimal code accuracy and performance, it's highly recommended to use the RAG dataset and leverage Google Colab's GPU/TPU resources.
 
+# Next Step
+* Add a way to identify code progress
+* LLM performance measurement
+  * Improve performace
+  * Improve RAG database
+    * Add CWEs
+    * Detail CWE code examples and mitigations
+* Cwss/Risk measurement
+
 # Where can users get help?
 
 ❓ You can open an issue on GitHub
