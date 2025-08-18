@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""SMART SAST tool with JSON-based RAG"""
+"""SMART SAST v1.0 - tool with JSON-based RAG"""
 
 # INPUT
 # -------------------------
