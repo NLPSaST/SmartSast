@@ -55,6 +55,32 @@ Getting started with SmartSast is straightforward. No installation or API keys a
 
 > **Pro Tip:** For optimal code accuracy and performance, it's highly recommended to use the RAG dataset and leverage Google Colab's GPU/TPU resources.
 
+**Report**
+```json
+{
+    "date": "20250705225525",
+    "file_name": "Test",
+    "file_extension": ".java",
+    "path_file": "/Vulnerabilities/Report/",
+    "duration": 52.38,
+    "risk [in progress]": "Critical",
+    "cwss_average [in progress]": 7.0,
+    "vulnerabilities": [
+        {
+            "Vulnerability_name": "XSS",
+            "CWE": " CWE-1301",
+            "CWSS": 101.0,
+            "Description": "XSS vulnerability: The application is vulnerable to cross-site scripting (XSS) attacks.  An attacker can inject malicious JavaScript code into the input field, which will then be executed in the browser of other users.",
+            "Vulnerable_code": "response.getWriter().println(",
+            "lines_range": [
+                12
+            ],
+            "Solution": "Implement proper input validation and output encoding to prevent XSS attacks.  Use a Content Security Policy (CSP) to restrict the sources of scripts that can be executed.",
+            "text1": "public class VulnerableServlet extends HttpServlet {\n    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {\n        String userInput = request.getParameter(\"input\");\n        **response.getWriter().println(\"<html><body>\" + userInput + \"</body></html>\");** // XSS vulnerability\n    }\n}"
+        }
+    ]
+}
+```
 **Next Step**
 * Add a way to identify code progress
 * LLM performance measurement
