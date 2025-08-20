@@ -58,27 +58,37 @@ Getting started with SmartSast is straightforward. No installation or API keys a
 **Report**
 ```json
 {
-    "date": "20250705225525",
-    "file_name": "Test",
-    "file_extension": ".java",
-    "path_file": "/Vulnerabilities/Report/",
-    "duration": 52.38,
-    "risk [in progress]": "Critical",
-    "cwss_average [in progress]": 7.0,
-    "vulnerabilities": [
+    "file_info": {
+        "date": "20250820025121",
+        "file_name": "test",
+        "file_extension": ".java",
+        "path_file": "/home/examples",
+        "analysis duration": 765.55,
+        "risk_level [in progress]": "Critical",
+        "cwss_average [in progress]": 89.0
+    },
+    "cleaned_vulnerabilities": [
         {
-            "Vulnerability_name": "XSS",
-            "CWE": " CWE-1301",
-            "CWSS": 101.0,
-            "Description": "XSS vulnerability: The application is vulnerable to cross-site scripting (XSS) attacks.  An attacker can inject malicious JavaScript code into the input field, which will then be executed in the browser of other users.",
-            "Vulnerable_code": "response.getWriter().println(",
-            "lines_range": [
-                12
-            ],
-            "Solution": "Implement proper input validation and output encoding to prevent XSS attacks.  Use a Content Security Policy (CSP) to restrict the sources of scripts that can be executed.",
-            "text1": "public class VulnerableServlet extends HttpServlet {\n    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {\n        String userInput = request.getParameter(\"input\");\n        **response.getWriter().println(\"<html><body>\" + userInput + \"</body></html>\");** // XSS vulnerability\n    }\n}"
+            "Vulnerability_name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
+            "CWE": "CWE-89",
+            "CWSS": 89.0,
+            "Description": "The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component. Without sufficient removal or quoting of SQL syntax in user-controllable inputs, the generated SQL query can cause those inputs to be interpreted as SQL instead of ordinary user data.",
+            "Vulnerable_code": "String query = \"insert into users (status) values ('updated') where name='\" + data + \"'\";",
+            "lines_range": "[88, 65]",
+            "Solution": "Use parameterized queries or prepared statements to prevent SQL injection. For example:\nString query = \"insert into users (status) values ('updated') where name=?\";\nPreparedStatement ps = dbConnection.prepareStatement(query);\nps.setString(1, data);",
+            "text1": "        String data = goodSource_SQL(); // Use good source to demonstrate good practice\n        try (Connection dbConnection = IO.getDBConnection();\n             Statement sqlStatement = dbConnection.createStatement()) {\n            String query = \"insert into users (status) values ('updated') where name='\" + data + \"'\";\n            sqlStatement.execute(query); // Safe usage as data is hardcoded\n        } catch (SQLException exceptSql) {\n            IO.logger.log(Level.WARNING, \"Database error\", exceptSql);",
+            "text2": "        String data = badSource_SQL();\n        try (Connection dbConnection = IO.getDBConnection();\n             Statement sqlStatement = dbConnection.createStatement()) {\n            String query = \"insert into users (status) values ('updated') where name='\" + data + \"'\";\n            sqlStatement.execute(query); // POTENTIAL FLAW: SQL Injection\n        } catch (SQLException exceptSql) {\n            IO.logger.log(Level.WARNING, \"Database error\", exceptSql);"
         }
-    ]
+    ],
+    "stats": {
+        "total_vulnerabilities": 1,
+        "unique_cwe_ids": 1,
+        "exact_duplicates": 0,
+        "name_duplicates": 0,
+        "clean_vulnerabilities_count": 1
+    },
+    "exact_duplicates": {},
+    "name_duplicates": {}
 }
 ```
 **Next Step**
