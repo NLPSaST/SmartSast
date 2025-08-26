@@ -39,14 +39,10 @@ Traditional SAST tools often require complex setups, rely on fixed rule sets, or
 ## Quick Start: Using SmartSast in Google Colab
 Getting started with SmartSast is straightforward. No installation or API keys are required! Simply open the Colab notebook and follow these steps:
 
-
-
-https://github.com/user-attachments/assets/f5be83c2-f83e-4c6c-bf01-0f30d6cbabc2
-
-
-
 **Ready to start? Click the badge below!**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FLn_i1Ln23pR7Sr25mafutaicASZa6LE?usp=sharing)
+
+https://github.com/user-attachments/assets/f5be83c2-f83e-4c6c-bf01-0f30d6cbabc2
 
 1.  **Open the Notebook:** Click the "Open in Colab" badge above or at the top of this page.
 2.  Save a Copy: In Colab, go to File > Save a copy in Drive to create your editable version.
