@@ -98,8 +98,6 @@ https://github.com/user-attachments/assets/f5be83c2-f83e-4c6c-bf01-0f30d6cbabc2
 * LLM performance measurement
   * Improve performace
   * Improve RAG database
-    * Add CWEs
-    * Detail CWE code examples and mitigations
 * CWSS/Risk measurement
 
 # Where can users get help?
