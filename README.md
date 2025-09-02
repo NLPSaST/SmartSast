@@ -110,9 +110,4 @@ https://github.com/user-attachments/assets/f5be83c2-f83e-4c6c-bf01-0f30d6cbabc2
 
 📧 Email (coming soon)
 
-```html
-<meta name="description" content="SmartSAST - Herramienta de análisis estático de código con NLP para detectar vulnerabilidades de seguridad">
-<meta name="keywords" content="SAST, seguridad, análisis código, NLP, vulnerabilidades, OWASP, programación segura">'''
-
-
 
