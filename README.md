@@ -1,7 +1,3 @@
-```html
-<meta name="description" content="SmartSAST - Herramienta de análisis estático de código con NLP para detectar vulnerabilidades de seguridad">
-<meta name="keywords" content="SAST, seguridad, análisis código, NLP, vulnerabilidades, OWASP, programación segura">
-
 # SmartSast: AI-Powered SAST for Local, Private Code Scanning
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FLn_i1Ln23pR7Sr25mafutaicASZa6LE?usp=sharing)
 SmartSast is an innovative Static Application Security Testing (SAST) tool that uses **Large Language Models (LLMs)** to identify security vulnerabilities directly in your source code. Designed for privacy and ease of use, SmartSast provides **accurate, AI-driven analysis without sending your code to external servers.**
@@ -114,6 +110,9 @@ https://github.com/user-attachments/assets/f5be83c2-f83e-4c6c-bf01-0f30d6cbabc2
 
 📧 Email (coming soon)
 
+```html
+<meta name="description" content="SmartSAST - Herramienta de análisis estático de código con NLP para detectar vulnerabilidades de seguridad">
+<meta name="keywords" content="SAST, seguridad, análisis código, NLP, vulnerabilidades, OWASP, programación segura">'''
 
 
 
